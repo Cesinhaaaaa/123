@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    p {
+        font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+        p {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 400px) {
+        p {
+            font-size: 12px;
+        }
+    }
+</style>
+</head>
+<body>
+    <p>Este é um texto de exemplo.</p>
+</body>
+</html>
